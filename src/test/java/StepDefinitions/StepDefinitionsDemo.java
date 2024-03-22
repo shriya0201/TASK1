@@ -29,6 +29,7 @@ public class StepDefinitionsDemo {
 	public void i_enter_username_as(String string) {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.findElement(By.id("username")).sendKeys(string);
+		System.out.println("Entered pass succesfully");
 	}
  
 	@When("I enter password as {string}")
