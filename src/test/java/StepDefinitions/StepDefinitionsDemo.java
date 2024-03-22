@@ -43,6 +43,7 @@ public class StepDefinitionsDemo {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.findElement(By.id("login")).click();
 		System.out.println("Login button is now clicked");
+		System.out.println("hello");
 	}
  
 	@Then("I am logged in successfully")
